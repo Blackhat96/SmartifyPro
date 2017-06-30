@@ -1,0 +1,25 @@
+<resources>
+    <string name="app_name">SmartifyPro</string>
+    <string name="help">Have you ever kept your phone in silent mode and forgot where it is, and you have Internet turned On??
+        Then this is the best app for you.
+    </string>
+    <string name="use">Store a backup phone number and select different features which you want to control remotely.
+        So whenever you want to toggle your wifi or forgot where you have kept your phone, Just give a missed call
+        from the backup number stored. The Phone will start ringing even if it is in silent mode or toggle your phone Wifi and you can search it
+        using Google device manager.
+    </string>
+    <string name="abt">Hi there, Im Abhishek U Bhat Computer Science graduate, Indie app developer
+    who is working hard to have a good app portfolio.Introvert. That\'s all about me.</string>
+    <string name="msg">Need Permission</string>
+    <string name="notice">In order for app to work properly it has to be allowed to run in background.</string>
+    <string name="oppo"> Open Oppo Security Center app.\nSelect Permissions Management.\nSelect Auto-run management.
+        \nAuto Run Management.\nWhitelist Smartify.\n</string>
+    <string name="lenovo">Open Settings.\nSelect Power Manager.\nSelect Background app.\nAllow Smartify to run in background.</string>
+    <string name="asus">Swipe down to open quick settings.\nOpen Auto-Start Manager from the app.\nAllow Smartify to run in background.</string>
+    <string name="vivo">Open iManager application.\nClick on App Manager.\nClick on Auto start manager.\nSelect Smartify from the list.</string>
+    <string name="email">  Email address:</string>
+    <string name="password">  Password:</string>
+    <string name="login">Sign in</string>
+    <string name="loading">Loading…</string>
+    <string name="auth_failed">Authentication failed</string>
+</resources>

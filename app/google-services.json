@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "701530077009",
+    "firebase_url": "https://smartifypro.firebaseio.com",
+    "project_id": "smartifypro",
+    "storage_bucket": "smartifypro.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:701530077009:android:fb25ddccc3da1056",
+        "android_client_info": {
+          "package_name": "app.smartifyPro"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "701530077009-s75ke7bv7q023lmca5jtbb68i28vqjt6.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "app.smartifyPro",
+            "certificate_hash": "e25ac3a86ac0b1e4037f0fdf44a02ac7929072eb"
+          }
+        },
+        {
+          "client_id": "701530077009-mgdpd7pc141p89k400gb3h3po138v07g.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCJJ55UMeOQWbBC77xqwwMeMfDsKIEHSUw"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "701530077009-mgdpd7pc141p89k400gb3h3po138v07g.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

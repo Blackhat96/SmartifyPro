@@ -1,0 +1,13 @@
+*.iml
+.gradle
+/local.properties
+/.idea/workspace.xml
+/.idea/libraries
+.DS_Store
+/build
+/captures
+.externalNativeBuild
+/app/build.gradle
+/app/src/main/java/app/smartifyPro/CallReceiver.java
+/app/src/main/java/app/smartifyPro/Login.java
+/app/src/main/java/app/smartifyPro/StartReceiver.java

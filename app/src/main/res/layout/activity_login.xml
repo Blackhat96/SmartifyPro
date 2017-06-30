@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/back"
+    android:paddingLeft="25dp"
+    android:paddingRight="25dp"
+    tools:context=".Login">
+
+    <com.github.florent37.materialtextfield.MaterialTextField
+        android:id="@+id/materialTextField2"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        app:mtf_cardCollapsedHeight="2dp"
+        app:mtf_image="@drawable/mail"
+        app:mtf_openKeyboardOnFocus="true"
+        android:layout_below="@+id/imageView"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="14dp"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true">
+
+        <EditText
+            android:id="@+id/email_id"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:hint="@string/email"
+            android:inputType="textEmailAddress" />
+    </com.github.florent37.materialtextfield.MaterialTextField>
+
+    <com.github.florent37.materialtextfield.MaterialTextField
+        android:id="@+id/materialTextField"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/materialTextField2"
+        android:layout_marginTop="12dp"
+        app:mtf_cardCollapsedHeight="2dp"
+        app:mtf_image="@drawable/lock"
+        app:mtf_openKeyboardOnFocus="true">
+
+        <EditText
+            android:id="@+id/password"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:hint="@string/password"
+            android:inputType="textPassword" />
+    </com.github.florent37.materialtextfield.MaterialTextField>
+
+    <Button
+        android:id="@+id/signIn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/materialTextField"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="32dp"
+        android:background="@drawable/button_background"
+        android:text="@string/login"
+        android:textAllCaps="false"
+        android:textSize="16sp" />
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="16dp"
+        android:adjustViewBounds="true"
+        android:paddingBottom="0dp"
+        android:paddingLeft="85dp"
+        android:paddingRight="85dp"
+        android:paddingTop="0dp"
+        app:srcCompat="@drawable/ic_launcher"
+        tools:ignore="ContentDescription" />
+
+    <Button
+        android:id="@+id/Gsign"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignEnd="@+id/signIn"
+        android:layout_alignLeft="@+id/signIn"
+        android:layout_alignRight="@+id/signIn"
+        android:layout_alignStart="@+id/signIn"
+        android:layout_below="@+id/textView2"
+        android:layout_marginTop="11dp"
+        android:background="@drawable/common_google_signin_btn_icon_dark_normal_background"
+        android:drawableLeft="@drawable/googleg_standard_color_18"
+        android:drawableStart="@drawable/googleg_standard_color_18"
+        android:paddingLeft="40dp"
+        android:text="Continue with Google"
+        android:textAllCaps="false"
+        android:textSize="15sp"
+        tools:ignore="HardcodedText,RtlHardcoded,RtlSymmetry" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/create"
+        android:layout_centerHorizontal="true"
+        android:paddingBottom="4dp"
+        android:text="Or"
+        android:textColor="@color/white"
+        android:textSize="18sp"
+        tools:ignore="HardcodedText" />
+
+    <TextView
+        android:id="@+id/create"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="23dp"
+        android:text="Create account"
+        android:textColor="@color/white"
+        android:textSize="17sp"
+        tools:ignore="HardcodedText"
+        android:layout_below="@+id/signIn"
+        android:layout_centerHorizontal="true" />
+
+
+</RelativeLayout>
